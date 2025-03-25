@@ -1,0 +1,24 @@
+.max-min-width{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width:768px){
+    
+   .max-min-width{
+    background-color: blue;
+   }
+}
+
+@media (min-width:1024px){
+    .max-min-width{
+        background-color: yellow;
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    body {
+      background-color: coral;
+    }
+  }
