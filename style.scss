@@ -1,0 +1,14 @@
+@mixin button-style($bg-colr){
+    width: auto;
+    height: 100px;
+    background-color: $bg-colr;
+    border: 10px solid rgb(128, 51, 0);
+    padding: 20px;
+
+
+}
+
+button {
+    @include button-style(red)
+
+}
